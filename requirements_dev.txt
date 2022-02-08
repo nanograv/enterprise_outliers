@@ -1,0 +1,17 @@
+pip>=19.1.1
+black~=19.10b0
+flake8~=3.7.7
+pre-commit~=1.15.2
+Cython>=0.28.5
+bumpversion>=0.5.3
+wheel>=0.29.0
+watchdog>=0.9.0
+coverage>=4.5.3
+Sphinx>=2.0.0
+cryptography>=2.0.0
+PyYAML>=4.2b1
+pytest>=4.0.0
+sphinx-rtd-theme>=0.4.0
+pytest-cov>=2.7.0
+jupyter>=1.0.0
+build==0.3.1.post1

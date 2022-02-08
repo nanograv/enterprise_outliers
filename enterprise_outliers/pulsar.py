@@ -38,7 +38,7 @@ import pint.toa as toa
 import pint.models as model
 import astropy.units as u
 
-import utils as ut
+import enterprise_outliers.utils as ut
 
 
 class OutlierPulsar():

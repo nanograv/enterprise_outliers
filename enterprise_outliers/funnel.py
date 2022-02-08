@@ -16,8 +16,8 @@ Requirements:
 import numpy as np
 import scipy.linalg as sl
 
-from base import ptaLikelihood
-from choleskyext_omp import cython_dL_update_omp
+from .base import ptaLikelihood
+from .choleskyext_omp import cython_dL_update_omp
 
 
 class Funnel(ptaLikelihood):
