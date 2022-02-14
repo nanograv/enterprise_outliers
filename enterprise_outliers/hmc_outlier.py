@@ -12,8 +12,8 @@ import numdifftools as nd
 import corner
 
 # The actual outlier code
-import interval as itvl
-from nutstrajectory import nuts6
+import enterprise_outliers.interval as itvl
+from .nutstrajectory import nuts6
 
 
 def poutlier(p,likob):

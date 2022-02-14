@@ -21,9 +21,9 @@ Requirements:
 
 import numpy as np
 
-from jitterext import cython_Uj
-from pulsar import OutlierPulsar
-import utils as ut
+from .jitterext import cython_Uj
+from .pulsar import OutlierPulsar
+import enterprise_outliers.utils as ut
 
 
 class ptaLikelihood(OutlierPulsar):

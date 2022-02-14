@@ -15,7 +15,7 @@ Requirements:
 import numpy as np
 import scipy.linalg as sl
 
-from funnel import Funnel
+from .funnel import Funnel
 
 
 class Interval(Funnel):
