@@ -15,9 +15,9 @@ requirements = [
     "Cython>=0.28.5",
     "scikit-sparse>=0.4.5",
     "enterprise-pulsar>=3.1.0",
-    "pint-pulsar"
-    "astropy"
-    "matplotlib"
+    "pint-pulsar",
+    "astropy",
+    "matplotlib",
     "numdifftools"
 ]
 
