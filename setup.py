@@ -51,7 +51,7 @@ ext_modules = [
 
 # Extract version
 def get_version():
-    with open("enterprise_outliers/__init__.py") as f:
+    with open("setup.cfg") as f:
         for line in f.readlines():
             if "__version__" in line:
                 return line.split('"')[1]
